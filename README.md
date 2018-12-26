@@ -1,4 +1,4 @@
-# nuxt-template
+# nuxt-template [![Build Status](https://travis-ci.org/DarkRiDDeR/nuxt-template.svg?branch=master)](https://travis-ci.org/DarkRiDDeR/nuxt-template)
 
 Base template of Nuxt.js: Babel + ES + JSX + SCSS + ESLint + Prettier + AVA.
 
