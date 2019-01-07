@@ -16,7 +16,7 @@ Aliases of directories:
 # Installation
 
 ``` bash
-git https://github.com/DarkRiDDeR/nuxt-template.git
+git clone https://github.com/DarkRiDDeR/nuxt-template.git
 cd nuxt-template
 npm install # Or yarn install
 ```
