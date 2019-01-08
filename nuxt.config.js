@@ -3,8 +3,8 @@ const { resolve } = require("path");
 module.exports = {
     srcDir: resolve("./"),
     /*
-    ** Headers of the page
-    */
+     ** Headers of the page
+     */
     head: {
         title: "nuxt-template",
         meta: [
@@ -22,20 +22,20 @@ module.exports = {
         link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
     },
     /*
-    ** Customize the progress bar color
-    */
+     ** Customize the progress bar color
+     */
     loading: { color: "#3B8070" },
     /*
-    ** Build configuration
-    */
+     ** Build configuration
+     */
     css: [
         // SCSS file in the project
         "@/assets/scss/main.scss"
     ],
     build: {
         /*
-        ** Run ESLint on save
-        */
+         ** Run ESLint on save
+         */
         extend(config, { isDev, isClient }) {
             const alias = (config.resolve.alias = config.resolve.alias || {});
             const srcDir = resolve("./") + "/";
