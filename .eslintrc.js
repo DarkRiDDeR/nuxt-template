@@ -9,14 +9,16 @@ module.exports = {
     },
     extends: [
         "eslint:recommended",
+        "plugin:prettier/recommended",
         // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
         // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
         "plugin:vue/recommended",
-        "plugin:prettier/recommended"
+        "prettier/vue"
     ],
     // required to lint *.vue files
     plugins: [
-        'vue'
+        "prettier",
+        "vue"
     ],
     // add your custom rules here
     rules: {
@@ -26,6 +28,7 @@ module.exports = {
         "semi": [2, "always"],
         "no-console": "off",
         "vue/max-attributes-per-line": "off",
-        "prettier/prettier": ["error", { "semi": true }]
+        "prettier/prettier": ["error", { "semi": true }],
+        "vue/html-indent": [2, 4]
     }
 };
