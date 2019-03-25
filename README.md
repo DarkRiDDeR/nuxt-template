@@ -1,10 +1,10 @@
 # nuxt-template [![Build Status](https://travis-ci.org/DarkRiDDeR/nuxt-template.svg?branch=master)](https://travis-ci.org/DarkRiDDeR/nuxt-template)
 
-Base template of Nuxt.js: Babel + ES + JSX + SCSS + ESLint + Prettier + AVA.
+Base template of Nuxt.js: Babel + ES + JSX + SCSS + ESLint + AVA.
 
 Philosophy of this pattern implies make styles in separate files.
 
-Added ESLint with Prettier. ESLint is a great tool to keep your code clean. Prettier is a very popular code formatter.
+ESLint is a great tool to keep your code clean.
 
 Setting Up Unit Test Cases in NUXT using AVA Framework.
 
